@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../images/NewYork.jpg");   
+}
+html{
+    height: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 95vh;
+    color: white;
+}
+#time{
+    font-size: 10vh;
+}
+#greeting{
+    padding-top: 25px;
+}
+#copyright{
+    text-align: center;
+    color: white;
+}
+#copyright > a{
+    color:white;
+}
